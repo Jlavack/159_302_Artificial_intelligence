@@ -1,0 +1,48 @@
+How to install Sublime Text 4 and gcc (v.13.1.0)
+
+1.  Download the latest gcc from https://winlibs.com/ 
+* pick GCC 13.1.0 (with POSIX threads) + LLVM/Clang/LLD/LLDB 16.0.5 + MinGW-w64 11.0.0 (UCRT) - release 5   (LATEST))   
+   The release versions are in compressed mode - you will need a decompressor like 7-Zip to unzip them.
+   Extract the gcc files inside a folder named gcc(e.g. C:\gcc).  You may slightly restructure the resulting directory structure so that
+   the binary files may be easily accessible from C:\gcc\bin.
+
+* make sure that the environment variable (i.e. Path), contains the directory of the gcc binary files you've just installed.
+* To test if g++ is accessible in your system, open a command shell and type the following command:  g++ --version 
+* For more information, see the accompanying file in our stream website, named "installation_instructions_for_gcc_13.1.txt"
+
+2. Download the latest recommended version of Sublime Text to use (Sublime Text 4)
+* https://www.sublimetext.com/
+
+3. Configure Sublime Text
+
+* From the menu, select Tools/Build System/New Build System
+
+* Copy and paste this:
+
+
+{
+               "cmd": ["mingw32-make"],
+               "file_regex": "^(..[^:]*):([0-9]+):?([0-9]+)?:? (.*)$",
+               "working_dir": "${project_path:${folder:${file_path}}}",
+               "selector": "source.makefile",
+
+               "variants":
+               [
+                              {
+                                             "name": "Clean",
+                                             "cmd": ["mingw32-make", "clean"]
+                              }
+               ]
+}
+
+
+* Save into file (assign a name that you prefer, e.g. napoleon).  By default, it will be saved under your User folder 
+(e.g C:\Users\nhreyes\AppData\Roaming\Sublime Text 3\Packages\User).  See the file, named "napoleon.sublime-build" as an example.
+
+
+* From the menu, select Tools/Build System
+    - select the name of Build settings that you have just created.
+
+4. You may now load the start-up codes for the assignment into Sublime Text.
+5. Press Ctrl+B to build (compile and link) your codes.
+

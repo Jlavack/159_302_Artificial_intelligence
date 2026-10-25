@@ -1,0 +1,7 @@
+Running the Test code (with graphics) via Massey Virtual Machine
+1. Connect to Massey’s Virtual Machine using VMware Horizon Client.
+2. Once connected, start Visual Studio Code.
+3. Open the folder containing your program.
+4. Make sure that the tasks.json file is properly configured. Note that the Test code for Massey Virtual Machine is already configured.
+6. Press Ctrl + Shift  + B to compile and then link the program to the graphics library
+7. Open a command prompt where your program resides, then run the executable  generated.  

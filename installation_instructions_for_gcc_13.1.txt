@@ -1,0 +1,38 @@
+INSTRUCTIONS for installing GCC and updating the system PATH FOR GCC 13.1.0 (for Windows)
+
+For Windows 10 users:
+
+1. Download the latest gcc 13.1.0 from https://winlibs.com/   
+   - pick GCC 13.1.0 (with POSIX threads) + LLVM/Clang/LLD/LLDB 16.0.5 + MinGW-w64 11.0.0 (UCRT) - release 5   (LATEST)) 
+   The release versions are in compressed mode - you will need a decompressor like 7-Zip to unzip them.
+   Extract the gcc files inside a folder named gcc(e.g. C:\gcc).  You may slightly restructure the resulting directory structure so that
+   the binary files may be easily accessible from C:\gcc\bin.
+
+2. Edit the environment variable that corresponds to the accessible "paths" in your machine.  
+   You can do this by doing the following: 
+     
+     - right-click the Start menu button
+     - select System from the drop-down menu
+     - click on "System info"
+     - select "Advanced system settings"
+     - click the "Environment Variables" button
+     - select "Path" from the "System variables" listbox, then click on the "Edit" button
+         - add a path to the C++ compiler by typing the actual path on the text box (e.g. C:\gcc\bin;)
+         - the bin subfolder contains the binaries that we need.   
+         - note also that paths are separated from each other using semicolon as delimeter (";")
+         - do not delete the existing paths that was added in your system previously, as they 
+           are used by other applications installed in your machine
+	 - make sure that you only have one gcc version that is added to the path environment variable.  
+	   Having multiple gcc versions in the path can lead to problems.
+
+3.  Lastly, you can check if you have successfully installed GCC by opening a command prompt 
+    and testing the version of gcc installed in your system.
+     - open a command prompt (select Start button, type "cmd" on the text box.
+     - as soon as the command prompt appears, you may type "g++ --version", to view the installed gcc version. 
+     
+
+Links
+	https://winlibs.com/
+	https://www.sublimetext.com/
+	https://gcc.gnu.org/gcc-13/changes.html
+     

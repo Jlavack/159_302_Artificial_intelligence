@@ -1,0 +1,59 @@
+F = 8.02221e-006
+prevState.angle = 2.68072e-006
+prevState.angle_dot = -1.06178e-005
+prevState.angle_double_dot = 4.20831e-005
+prevState.x = 0.206248
+prevState.x_dot = -0.4748
+prevState.x_double_dot = -3.12104e-005
+in_x: 0.00193389
+in_y: 2.1027e-008
+
+F = 7.95942e-006
+prevState.angle = 2.65965e-006
+prevState.angle_dot = -1.05342e-005
+prevState.angle_double_dot = 4.1752e-005
+prevState.x = 0.205299
+prevState.x_dot = -0.4748
+prevState.x_double_dot = -3.09645e-005
+in_x: 0.00126914
+in_y: 2.08731e-008
+
+F = 7.89705e-006
+prevState.angle = 2.63875e-006
+prevState.angle_dot = -1.04514e-005
+prevState.angle_double_dot = 4.14233e-005
+prevState.x = 0.204349
+prevState.x_dot = -0.4748
+prevState.x_double_dot = -3.07205e-005
+in_x: 0.000604402
+in_y: 2.07201e-008
+
+F = -40.0009
+prevState.angle = 2.61801e-006
+prevState.angle_dot = -1.03692e-005
+prevState.angle_double_dot = 4.10974e-005
+prevState.x = 0.2034
+prevState.x_dot = -0.4748
+prevState.x_double_dot = -3.04784e-005
+in_x: -6.03408e-005
+in_y: 2.05682e-008
+
+F = -38.9814
+prevState.angle = 0.000322605
+prevState.angle_dot = 0.159993
+prevState.angle_double_dot = 80.0019
+prevState.x = 0.202304
+prevState.x_dot = -0.547529
+prevState.x_double_dot = -36.3645
+in_x: -0.0226456
+in_y: 0.0322568
+
+F = -35.3283
+prevState.angle = 0.000954471
+prevState.angle_dot = 0.315933
+prevState.angle_double_dot = 77.9698
+prevState.x = 0.200777
+prevState.x_dot = -0.763862
+prevState.x_double_dot = -108.167
+in_x: -0.088615
+in_y: 0.0639502

@@ -1,0 +1,31 @@
+---
+title: "control_surface"
+author: "John Lavack"
+date: "2023-09-30"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+library(plotly)
+```
+
+
+```{r}
+data <- read.csv("data_angle_vs_angle_dot.txt")
+# Make csv object a matrix
+m = as.matrix(data)
+
+```
+
+```{r}
+fig <- plot_ly(z= ~m)
+fig <- fig%>% add_surface()
+fig
+```
+

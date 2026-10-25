@@ -1,0 +1,99 @@
+F = -0.177959
+prevState.angle = -0.0194274
+prevState.angle_dot = 0.0673906
+prevState.angle_double_dot = 0.0212741
+prevState.x = 2.46374
+prevState.x_dot = -1.29023
+prevState.x_double_dot = -0.187284
+in_x: 1.33755
+in_y: -0.00206378
+
+F = -0.279268
+prevState.angle = -0.0192928
+prevState.angle_dot = 0.0672647
+prevState.angle_double_dot = -0.0629665
+prevState.x = 2.46115
+prevState.x_dot = -1.29059
+prevState.x_double_dot = -0.181121
+in_x: 1.33563
+in_y: -0.00198134
+
+F = -0.00659667
+prevState.angle = -0.0191577
+prevState.angle_dot = 0.0675497
+prevState.angle_double_dot = 0.142508
+prevState.x = 2.45857
+prevState.x_dot = -1.29099
+prevState.x_double_dot = -0.196653
+in_x: 1.3337
+in_y: -0.00181626
+
+F = -0.771664
+prevState.angle = -0.0190242
+prevState.angle_dot = 0.0667501
+prevState.angle_double_dot = -0.399801
+prevState.x = 2.45599
+prevState.x_dot = -1.29126
+prevState.x_double_dot = -0.13553
+in_x: 1.33182
+in_y: -0.00186938
+
+F = 1.64074
+prevState.angle = -0.0188862
+prevState.angle_dot = 0.0690158
+prevState.angle_double_dot = 1.13288
+prevState.x = 2.45341
+prevState.x_dot = -1.29194
+prevState.x_double_dot = -0.338126
+in_x: 1.3298
+in_y: -0.00130581
+
+F = -5.88948
+prevState.angle = -0.0187629
+prevState.angle_dot = 0.06164
+prevState.angle_double_dot = -3.68791
+prevState.x = 2.45082
+prevState.x_dot = -1.29101
+prevState.x_double_dot = 0.461868
+in_x: 1.32827
+in_y: -0.00268235
+
+F = 80
+prevState.angle = -0.0185942
+prevState.angle_dot = 0.084384
+prevState.angle_double_dot = 11.372
+prevState.x = 2.44823
+prevState.x_dot = -1.29502
+prevState.x_double_dot = -2.00202
+in_x: 1.32526
+in_y: 0.00200146
+
+F = -43.2121
+prevState.angle = -0.0190669
+prevState.angle_dot = -0.236351
+prevState.angle_double_dot = -160.368
+prevState.x = 2.44589
+prevState.x_dot = -1.17023
+prevState.x_double_dot = 62.3909
+in_x: 1.36106
+in_y: -0.0625238
+
+F = -18.9902
+prevState.angle = -0.0191956
+prevState.angle_dot = -0.0643625
+prevState.angle_double_dot = 85.9944
+prevState.x = 2.44398
+prevState.x_dot = -0.957277
+prevState.x_double_dot = 106.478
+in_x: 1.4236
+in_y: -0.028229
+
+F = -17.0698
+prevState.angle = -0.0191741
+prevState.angle_dot = 0.0107537
+prevState.angle_double_dot = 37.5581
+prevState.x = 2.44168
+prevState.x_dot = -1.14813
+prevState.x_double_dot = -95.4261
+in_x: 1.36474
+in_y: -0.0131885
